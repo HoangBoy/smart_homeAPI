@@ -1,4 +1,5 @@
 using MySmartHomeAPI.Models;
+using System.Net.WebSockets;
 
 namespace MySmartHomeAPI.Services
 {
@@ -7,7 +8,6 @@ namespace MySmartHomeAPI.Services
         bool ControlDevice(DeviceControlRequest request);
         DeviceStatusResponse GetDeviceStatus(int id);
           List<DeviceStatusResponse> GetAllDeviceStatus(); // Phương thức mới
-
-          
+        void SetWebSocket(WebSocket webSocket);
     }
 }

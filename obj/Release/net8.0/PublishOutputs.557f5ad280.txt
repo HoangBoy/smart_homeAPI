@@ -1,0 +1,14 @@
+D:\WorkSpace\APISmartHomeFromGit V_1\obj\Release\net8.0\PubTmp\Out\SmartHomeAPI.exe
+D:\WorkSpace\APISmartHomeFromGit V_1\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\WorkSpace\APISmartHomeFromGit V_1\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\WorkSpace\APISmartHomeFromGit V_1\obj\Release\net8.0\PubTmp\Out\SmartHomeAPI.dll
+D:\WorkSpace\APISmartHomeFromGit V_1\obj\Release\net8.0\PubTmp\Out\SmartHomeAPI.deps.json
+D:\WorkSpace\APISmartHomeFromGit V_1\obj\Release\net8.0\PubTmp\Out\SmartHomeAPI.runtimeconfig.json
+D:\WorkSpace\APISmartHomeFromGit V_1\obj\Release\net8.0\PubTmp\Out\SmartHomeAPI.pdb
+D:\WorkSpace\APISmartHomeFromGit V_1\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
+D:\WorkSpace\APISmartHomeFromGit V_1\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\WorkSpace\APISmartHomeFromGit V_1\obj\Release\net8.0\PubTmp\Out\MQTTnet.dll
+D:\WorkSpace\APISmartHomeFromGit V_1\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\WorkSpace\APISmartHomeFromGit V_1\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\WorkSpace\APISmartHomeFromGit V_1\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\WorkSpace\APISmartHomeFromGit V_1\obj\Release\net8.0\PubTmp\Out\System.Net.WebSockets.WebSocketProtocol.dll
