@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SmartHomeAPI\\SmartHomeAPI.csproj": {}
+    "D:\\WorkSpace\\APISmartHomeFromGit V_1\\SmartHomeAPI.csproj": {}
   },
   "projects": {
-    "E:\\SmartHomeAPI\\SmartHomeAPI.csproj": {
+    "D:\\WorkSpace\\APISmartHomeFromGit V_1\\SmartHomeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SmartHomeAPI\\SmartHomeAPI.csproj",
+        "projectUniqueName": "D:\\WorkSpace\\APISmartHomeFromGit V_1\\SmartHomeAPI.csproj",
         "projectName": "SmartHomeAPI",
-        "projectPath": "E:\\SmartHomeAPI\\SmartHomeAPI.csproj",
+        "projectPath": "D:\\WorkSpace\\APISmartHomeFromGit V_1\\SmartHomeAPI.csproj",
         "packagesPath": "C:\\Users\\viethoang\\.nuget\\packages\\",
-        "outputPath": "E:\\SmartHomeAPI\\obj\\",
+        "outputPath": "D:\\WorkSpace\\APISmartHomeFromGit V_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\viethoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,9 +46,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.3.7.1207, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.WebSockets": {
+              "target": "Package",
+              "version": "[2.2.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -74,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

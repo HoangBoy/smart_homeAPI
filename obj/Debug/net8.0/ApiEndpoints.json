@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "MySmartHomeAPI.Controllers.DeviceController",
+    "Method": "ControlDevice",
+    "RelativePath": "api/Device/control",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MySmartHomeAPI.Models.DeviceControlRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MySmartHomeAPI.Controllers.DeviceController",
+    "Method": "GetAllDeviceStatus",
+    "RelativePath": "api/Device/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MySmartHomeAPI.Controllers.DeviceController",
+    "Method": "GetDeviceStatus",
+    "RelativePath": "api/Device/status/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MySmartHomeAPI.Controllers.DeviceController",
+    "Method": "GetWebSocket",
+    "RelativePath": "api/Device/ws",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

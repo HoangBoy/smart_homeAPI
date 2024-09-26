@@ -16,6 +16,13 @@ public class ApiKeyMiddleware
 
     public async Task InvokeAsync(HttpContext context)
     {
+
+        if (context.Request.Path == "/api/device/ws")
+        {
+            await _next(context);
+            return;
+        }
+
         if (!context.Request.Headers.TryGetValue(ApiKeyHeaderName, out var extractedApiKey))
         {
             context.Response.StatusCode = 401; // Unauthorized
